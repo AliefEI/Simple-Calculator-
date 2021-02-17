@@ -1,0 +1,84 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+.bodyOutline{
+     border: black 2px solid;
+     width: 800px;
+     align-items: center;
+}
+.mainBody{
+     float: inline-end;
+     width: 93%;
+}
+
+input{
+     height: 50px;
+     width: 45%;
+     float: left;
+}
+.buttonKeys{
+     width: 100%;
+     float: left;
+}
+
+.signs{
+     height: 70px;
+     width: 25%;
+     float: left;
+}
+h2{
+     height: 50px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
